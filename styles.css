@@ -1,0 +1,39 @@
+:root {
+  --clr-primary-50: hsl(205, 87%, 94%);
+  --clr-primary-100: #bbdefb;
+  --clr-primary-200: #90caf9;
+  --clr-primary-300: #64b5f6;
+  --clr-primary-900: hsl(235, 66%, 30%);
+  --grey-900: #212121;
+  --radius-1: 5px;
+  --font-1: 12px;
+  --font-2: 14px;
+  --font-3: 16px;
+  --clr-white: #ffffff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 200px;
+  height: 400px;
+  font-size: var(--font-3);
+  background-color: var(--clr-primary-100);
+  color: var(--grey-900);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px;
+  background-color: var(--clr-primary-900);
+  border-radius: var(--radius-1);
+  color: var(--clr-white);
+}
